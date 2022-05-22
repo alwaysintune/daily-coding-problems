@@ -81,7 +81,7 @@ assert.strictEqual(
   "left.left",
   "it should return expected binary tree structure with valid input"
 );
-assert.deepStrictEqual(
+assert.strictEqual(
   JSON.stringify(deserialize(serialize(node))),
   JSON.stringify(node),
   "it should not modify binary tree structure when deserializing"
